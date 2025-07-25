@@ -71,7 +71,8 @@ header {
   justify-content: center;
   text-align: center;
   color: #ffffff;
-  background: url('assets/img/hero-bg.png') no-repeat center / cover;
+  /* Updated hero background path: the image is now stored in the repository root */
+  background: url('hero-bg.png') no-repeat center / cover;
 }
 
 .hero-overlay {
